@@ -1,0 +1,15 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.tab_controller {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.tab_controller ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+.tab_controller ul li {
+	display: inline-block;
+	margin-right: 10px;
+}

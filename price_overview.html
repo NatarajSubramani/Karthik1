@@ -1,0 +1,28 @@
+<table class="table">
+	<thead>
+		<tr>
+			<th>Rank</th>
+			<th>Fund</th>
+			<th>Group</th>
+			<th>Focus</th>
+			<th>Yield</th>
+			<th>1Y</th>
+			<th>3Y</th>
+			<th>5Y</th>
+			<th>Del_function</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat ="funDet in fundDetails">					
+			<td>{{funDet.Rank}}</td>
+			<td>{{funDet.Fund}}</td>
+			<td>{{funDet.Group}}</td>
+			<td>{{funDet.Focus}}</td>
+			<td>{{funDet.Yield}}</td>
+			<td>{{funDet.1Y}}</td>
+			<td>{{funDet.3Y}}</td>
+			<td>{{funDet.5Y}}</td>
+			<td>{{funDet.Del_function}}</td>
+		</tr>
+	</tbody>
+</table>

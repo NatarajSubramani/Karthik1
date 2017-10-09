@@ -1,0 +1,28 @@
+<table class="table">
+	<thead>
+		<tr>
+			<th>Rank</th>
+			<th>Fund</th>
+			<th>Group</th>
+			<th>Focus</th>
+			<th>Yield</th>
+			<th>1Y</th>
+			<th>3Y</th>
+			<th>5Y</th>
+			<th>Del_function</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat ="annalDet in annualDetails">					
+			<td>{{annalDet.Rank}}</td>
+			<td>{{annalDet.Fund}}</td>
+			<td>{{annalDet.Group}}</td>
+			<td>{{annalDet.Focus}}</td>
+			<td>{{annalDet.Yield}}</td>
+			<td>{{annalDet.1Y}}</td>
+			<td>{{annalDet.3Y}}</td>
+			<td>{{annalDet.5Y}}</td>
+			<td>{{annalDet.Del_function}}</td>
+		</tr>
+	</tbody>
+</table>

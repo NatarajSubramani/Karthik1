@@ -1,0 +1,28 @@
+<table class="table">
+	<thead>
+		<tr>
+			<th>Rank</th>
+			<th>Fund</th>
+			<th>Group</th>
+			<th>Focus</th>
+			<th>Yield</th>
+			<th>1Y</th>
+			<th>3Y</th>
+			<th>5Y</th>
+			<th>Del_function</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat ="discDet in discreteDetails">					
+			<td>{{discDet.Rank}}</td>
+			<td>{{discDet.Fund}}</td>
+			<td>{{discDet.Group}}</td>
+			<td>{{discDet.Focus}}</td>
+			<td>{{discDet.Yield}}</td>
+			<td>{{discDet.1Y}}</td>
+			<td>{{discDet.3Y}}</td>
+			<td>{{discDet.5Y}}</td>
+			<td>{{discDet.Del_function}}</td>
+		</tr>
+	</tbody>
+</table>
